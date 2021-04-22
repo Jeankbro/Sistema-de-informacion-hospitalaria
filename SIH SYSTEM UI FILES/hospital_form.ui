@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_hospital_form</class>
+ <widget class="QWidget" name="add_hospital_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>397</width>
+    <height>149</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Añadir hospital</string>
+  </property>
+  <widget class="QGroupBox" name="hospital_info">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Datos del hospital</string>
+   </property>
+   <widget class="QLabel" name="text_hospital_name">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre del hospital</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="hospital_name">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>60</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions_add_hospital">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>331</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Por favor ingrese el nombre del nuevo hospital.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_add_hospital">
+    <property name="geometry">
+     <rect>
+      <x>294</x>
+      <y>100</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Añadir hospital</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

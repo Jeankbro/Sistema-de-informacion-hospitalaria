@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>doctor_info_window</class>
+ <widget class="QDialog" name="doctor_info_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Información del doctor(a)</string>
+  </property>
+  <widget class="QGroupBox" name="doctor_info_section">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>741</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Información del doctor(a)</string>
+   </property>
+   <widget class="QTableWidget" name="doctor_info_table">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>701</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nombre completo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Especialización</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DNI</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

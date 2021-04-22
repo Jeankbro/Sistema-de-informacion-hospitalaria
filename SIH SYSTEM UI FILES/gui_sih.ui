@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_window</class>
+ <widget class="QMainWindow" name="main_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1089</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de información hospitalaria SIH</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="welcome_sign">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>1071</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Bienvenido a la interfaz del sistema de información hospitalaria SIH &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="doctors_image">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>721</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>doctores.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions_sih">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>630</y>
+      <width>1071</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Por favor seleccione una de las opciones de la esquina superior izquierda&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1089</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHospital">
+    <property name="title">
+     <string>Hospital</string>
+    </property>
+    <addaction name="action_add_hospital"/>
+   </widget>
+   <widget class="QMenu" name="menu_doctor">
+    <property name="title">
+     <string>Doctor</string>
+    </property>
+    <widget class="QMenu" name="menu_search_doctor">
+     <property name="title">
+      <string>Buscar doctor</string>
+     </property>
+     <addaction name="action_search_by_dni"/>
+     <addaction name="action_search_by_full_name"/>
+    </widget>
+    <addaction name="action_add_doctor"/>
+    <addaction name="menu_search_doctor"/>
+   </widget>
+   <addaction name="menuHospital"/>
+   <addaction name="menu_doctor"/>
+  </widget>
+  <action name="action_add_hospital">
+   <property name="text">
+    <string>Agregar hospital</string>
+   </property>
+  </action>
+  <action name="actionBuscar_hospital">
+   <property name="text">
+    <string>Buscar hospital</string>
+   </property>
+  </action>
+  <action name="action_add_doctor">
+   <property name="text">
+    <string>Añadir doctor</string>
+   </property>
+  </action>
+  <action name="actionPor_dni">
+   <property name="text">
+    <string>Por dni</string>
+   </property>
+  </action>
+  <action name="action_search_by_dni">
+   <property name="text">
+    <string>Por DNI</string>
+   </property>
+  </action>
+  <action name="action_search_by_full_name">
+   <property name="text">
+    <string>Por nombre completo</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
