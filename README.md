@@ -5,6 +5,6 @@ Desde una perspectiva de Programación Orientada a Objetos el modelo se puede re
 
 ![Modelos](https://github.com/Jeankbro/Sistema-de-informacion-hospitalaria/blob/main/modelo%20sistema.png)
 
-Siguiendo la siguiente arquitectura:
+El proyecto sigue la siguiente arquitectura:
 
 ![Arquitectura](https://github.com/Jeankbro/Sistema-de-informacion-hospitalaria/blob/main/arquitectura.png)
