@@ -8,8 +8,11 @@ def create_doctor(name, dni, specialty):
     doctor_specialty = specialty
 
     doctor = doctor.Doctor(doctor_name, doctor_dni, doctor_specialty)
+    append_doctor(doctor)
+
+
+def append_doctor(doctor):
     controller_hospital.append_doctor(doctor)
 
-    return doctor
 
 
